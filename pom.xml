@@ -12,7 +12,7 @@
 		<!-- jdk版本 -->
 		<jdk.version>1.7</jdk.version>
 		<!-- 骨架版本 -->
-		<archetype.version>3.0.0</archetype.version>
+		<archetype.version>2.2</archetype.version>
 		<!-- 单元测试版本 -->
 		<junit.version>4.10</junit.version>
 		<!-- 日志slf4j版本 -->
