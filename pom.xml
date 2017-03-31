@@ -12,11 +12,11 @@
 		<!-- jdk版本 -->
 		<jdk.version>1.7</jdk.version>
 		<!-- 骨架版本 -->
-		<archetype.version>2.2</archetype.version>
+		<archetype.version>3.0.0</archetype.version>
 		<!-- 单元测试版本 -->
 		<junit.version>4.10</junit.version>
-		<!-- 日志log4j版本 -->
-		<log4j.version>1.2.9</log4j.version>
+		<!-- 日志slf4j版本 -->
+		<slf4j.version>1.7.25</slf4j.version>
 	</properties>
 	<!--1.4.配置名称和url可以忽略-->
 	<name>${project.artifactId}</name>
@@ -27,24 +27,18 @@
   	<version>0.0.1-SNAPSHOT</version>
 <!--3.配置依赖-->
   	<dependencies>
-  		<!-- junit -->
+		<!-- junit -->
     	<dependency>
       		<groupId>junit</groupId>
       		<artifactId>junit</artifactId>
       		<version>${junit.version}</version>
       		<scope>test</scope>
     	</dependency>
-    	<!-- log4j -->
+    	<!-- log -->
 	    <dependency>
-		  	<groupId>log4j</groupId>
-		  	<artifactId>log4j</artifactId>
-		  	<version>${log4j.version}</version>
-		</dependency>
-		<dependency>
-		  	<groupId>log4j</groupId>
-		  	<artifactId>log4j</artifactId>
-		  	<version>${log4j.version}</version>
-		  	<classifier>sources</classifier>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-log4j12</artifactId>
+		    <version>${slf4j.version}</version>
 		</dependency>
   	</dependencies>
 <!--4.配置build-->
