@@ -23,7 +23,7 @@
   	<url>http://${project.artifactId}.mavenDemo.com</url>
 <!--2.配置本项目GAV-->
   	<groupId>com.mavendemo.log4j</groupId>
-  	<artifactId>log4j</artifactId>
+  	<artifactId>mavendemo-log4j</artifactId>
   	<version>0.0.1-SNAPSHOT</version>
 <!--3.配置依赖-->
   	<dependencies>
