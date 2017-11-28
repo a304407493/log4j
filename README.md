@@ -1,2 +1,5 @@
 # mavendemo-log4j
-maven构建的各种Simple # pom的主要内容： 1.单元测试 2.添加国内仓库 3.骨架插件和指定jdk插件（1.7） 4.增加日志输出演示（暂不支持，spring支持，需要再做）
+1.基于https://github.com/a304407493/mavendemo-blank.git<br/>
+2.maven骨架的java（非web）项目（日志jar）<br/>
+3.pom增加单元测试<br/>
+4.pom增加日志输出演示（暂不支持，spring支持，需要再做）<br/>
